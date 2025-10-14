@@ -1,0 +1,6 @@
+Flask
+mlflow
+nltk
+numpy
+pandas
+gunicorn
