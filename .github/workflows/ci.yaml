@@ -45,7 +45,7 @@ jobs:
           DAGSHUB_PAT: ${{ secrets.DAGSHUB_PAT }}
         run: python scripts/promote_model.py
 
-      - name: Download model from MLflow      # new code
+      - name: Download model from MLflow      # new code line
         if: success()
         env:
           DAGSHUB_PAT: ${{ secrets.DAGSHUB_PAT }}
